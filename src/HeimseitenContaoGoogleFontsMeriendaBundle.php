@@ -4,17 +4,8 @@ declare(strict_types=1);
 
 namespace Heimseiten\ContaoGoogleFontsMeriendaBundle;
 
-use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Symfony\Component\HttpKernel\Bundle\Bundle;
+use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 
-class HeimseitenContaoGoogleFontsMeriendaBundle extends Bundle
+class HeimseitenContaoGoogleFontsMeriendaBundle extends AbstractBundle
 {
-	/**
-	 * {@inheritdoc}
-	 */
-	public function build(ContainerBuilder $container): void
-	{
-		parent::build($container);
-		
-	}
 }
